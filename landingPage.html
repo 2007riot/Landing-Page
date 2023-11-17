@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sync App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="resources/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <img class="logo-image" src="resources/logo.svg" alt="Sync">
+            <ul>
+                <li class="nav-list">Description</li>
+                <li class="nav-list">Features</li>
+                <li class="nav-list">Screen</li>
+                <li class="nav-list">Extra</li>
+                <li class="nav-list"><button class="download-button nav button"><a href="https://factoriaf5.org/"
+                            target="_blank">Download</a></button></li>
+            </ul>
+        </nav>
+
+        <script>
+            // JavaScript to handle scroll event and change background color
+            window.addEventListener('scroll', function () {
+                var navbar = document.getElementById('navbar');
+                if (window.scrollY > 0) {
+                    navbar.classList.add('scrolled');
+                } else {
+                    navbar.classList.remove('scrolled');
+                }
+            });
+        </script>
+
+    </header>
+    <section class="decorations">
+        <img class="green-diamond" src="resources/decorative-green-diamond.svg" alt="">
+        <img class="orange-circle" src="resources/decorative-yellow-circle.svg" alt="">
+    </section>
+    <h1>Mobile App Landing Page</h1>
+
+    <p>Start focusing on your goals and get more things done with Sync mobile application.</p>
+    <p>It's the first app to harness the power of social connections to help you stay focused and get organized.</p>
+    <section class="download-button-container">
+        <a href="https://factoriaf5.org/" class="download-button 1" target="_blank">
+            <i class="fa-brands fa-apple"></i>
+            Download
+        </a>
+        <a href="https://factoriaf5.org/" class="download-button 2" target="_blank">
+            <i class="fa-brands fa-google-play"></i>
+            Download
+        </a>
+    </section>
+    <img class="iphone-image" src="resources/header-iphone.png" alt="phone">
+
+
+    <section class="first-screen-icons-container">
+        <div class="icon-container">
+            <div class="icon-circle purple">
+                <i class="fa-solid fa-users"></i>
+            </div>
+            <h3>Identify goals</h3>
+        </div>
+
+        <div class="icon-container">
+            <div class="icon-circle green">
+                <i class="fa-solid fa-code"></i>
+            </div>
+            <h3>Situation Analysis</h3>
+        </div>
+
+        <div class="icon-container">
+            <div class="icon-circle pink">
+                <i class="fa-solid fa-gear"></i>
+            </div>
+            <h3>Tasks Settings</h3>
+        </div>
+        <div class="icon-container">
+            <div class="icon-circle yellow">
+                <i class="fa-solid fa-comments"></i>
+            </div>
+            <h3>Social Interaction</h3>
+        </div>
+        <div class="icon-container">
+            <div class="icon-circle blue">
+                <i class="fa-solid fa-rocket"></i>
+            </div>
+            <h3>Get Things Done</h3>
+        </div>
+    </section>
+
+    </section class="second-screen organize">
+    <div class="second-screen-container organize">
+        <img class="second-screen-image organize" src="resources/description-1-app.png" alt="organize">
+        <div class="second-screen-text organize">
+            <h2>Organize Your Time And Start Getting results</h1>
+                <p>Sync is the first mobile app on the market to harness the power of social connections to help you to
+                    stop procrastinating and start getting things done. Give it a try and see the changes right away.
+                </p>
+                <ul>
+                    <li>Analyse and evaluate your current status and productivity</li>
+                    <li>Begin monitoring your day to day routine with Sync app</li>
+                    <li>See the improved results in no more than a couple of weeks</li>
+                </ul>
+                <button class="download-button">Lightbox</button>
+        </div>
+    </div>
+
+    <section class="second-screen schedule">
+        <div class="second-screen-container schedule">
+            <div class="second-screen-text schedule">
+                <button class="second-screen-button purple-button">
+                    <i class="fa-solid fa-clock"></i>
+                    Schedule
+                </button>
+                <button class="second-screen-button 2">
+                    <i class="fa-solid fa-list"></i>
+                    Tracking
+                </button>
+                <button class="second-screen-button 3">
+                    <i class="fa-solid fa-calendar"></i>
+                    Organize
+                </button>
+                <p><b>Schedule tasks</b> to keep track of their completion. Sync provides multiple scheduling options
+                    including alarms and reminders.</p>
+                <p>
+                    <i class="fa-regular fa-square-check"></i>
+                    You can always add new tasks or change the settings of existing ones in your calendar view or the
+                    app control panel
+                </p>
+                <p>
+                    <i class="fa-regular fa-square-check"></i>
+                    It's easy to stay focused on your most important daily activities that will get you closer to
+                    meeting your goals
+                </p>
+                <p>
+                    <i class="fa-regular fa-square-check"></i>
+                    Use phone reminders to free up your long term memory which will reduce stress and make you more
+                    productive
+                </p>
+                <button class="download-button">Terms</button>
+                <button class="download-button">Privacy</button>
+
+            </div>
+            <img class="second-screen-image schedule" src="resources/description-2-app.png" alt="organize">
+        </div>
+
+    </section>
+    <h2>Special Features</h2>
+    <h2>User testimonials</h2>
+
+    <div class="reviews-container">
+        <div class="review">
+            <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="rectangle-review"></div>
+            <p class="review-text"><i>I got so much value from using Sync in my daily life for which I am very grateful
+                    and would recommend it to everybody</i></p>
+            <p class="review-name">Rick Jones - Designer</p>
+        </div>
+        <div class="review">
+            <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="rectangle-review"></div>
+            <p class="review-text"><i>I got so much value from using Sync in my daily life for which I am very grateful
+                    and would recommend it to everybody</i></p>
+            <p class="review-name">Lynda Marquez - Developer</p>
+        </div>
+        <div class="review">
+            <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="rectangle-review"></div>
+            <p class="review-text"><i>I got so much value from using Sync in my daily life for which I am very grateful
+                    and would recommend it to everybody</i></p>
+            <p class="review-name">Jay Frisco - Marketer</p>
+        </div>
+    </div>
+
+    <div class="companies">
+        <img class="company" src="resources/customer-logo-1.png" alt="">
+        <img class="company" src="resources/customer-logo-2.png" alt="">
+        <img class="company" src="resources/customer-logo-3.png" alt="">
+        <img class="company" src="resources/customer-logo-4.png" alt="">
+        <img class="company" src="resources/customer-logo-5.png" alt="">
+    </div>
+
+
+    <div class="reviews-container">
+        <div class="review">
+            <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="rectangle-review"></div>
+            <p class="review-text"><i>I got so much value from using Sync in my daily life for which I am very grateful
+                    and would recommend it to everybody</i></p>
+            <p class="review-name">Franj Gibson - Manager</p>
+        </div>
+        <div class="review">
+            <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="rectangle-review"></div>
+            <p class="review-text"><i>I got so much value from using Sync in my daily life for which I am very grateful
+                    and would recommend it to everybody</i></p>
+            <p class="review-name">Rita Longmile - Designer</p>
+        </div>
+        <div class="review">
+            <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="rectangle-review"></div>
+            <p class="review-text"><i>I got so much value from using Sync in my daily life for which I am very grateful
+                    and would recommend it to everybody</i></p>
+            <p class="review-name">Jones Smith - Developer</p>
+        </div>
+    </div>
+
+    <div class="numbers-container">
+        <div class="icon-numbers-container">
+            <i class="fa-solid fa-users"></i>
+            <p class="number-text">231</p>
+            <p>Happy Users</p>
+        </div>
+
+        <div class="icon-numbers-container">
+            <i class="fa-solid fa-code"></i>
+            <p class="number-text">231</p>
+            <p>Issues Solved</p>
+        </div>
+
+        <div class="icon-numbers-container">
+            <i class="fa-solid fa-gear"></i>
+            <p class="number-text">231</p>
+            <p>Good Reviews</p>
+        </div>
+
+        <div class="icon-numbers-container">
+            <i class="fa-solid fa-comments"></i>
+            <p class="number-text">231</p>
+            <p>Case Studies</p>
+        </div>
+
+        <div class="icon-numbers-container">
+            <i class="fa-solid fa-rocket"></i>
+            <p class="number-text">231</p>
+            <p>Orders Recieved</p>
+        </div>
+    </div>
+
+
+    <footer>
+        <section class="contact-container">
+            <p class="footer-heading">Contact info</p>
+            <div class="footer-icon-text">
+                <i class="fa-solid fa-location-dot"></i>
+                <p class="footer-text">22 Innovation Street, CA, US</p>
+            </div>
+            <div class="footer-icon-text">
+                <i class="fa-solid fa-envelope"></i>
+                <p class="footer-text">office@syncmobile.com</p>
+            </div>
+            <div class="footer-icon-text">
+                <i class="fa-solid fa-phone"></i>
+                <p class="footer-text">+44 376 945 23</p>
+            </div>
+        </section>
+        <section class="contact-container">
+            <p class="footer-heading">Value Links</p>
+            <p class="footer-icon-text">Terms & Conditions</p>
+            <p class="footer-icon-text">Privacy Policy</p>
+            <p class="footer-icon-text">Article Details</p>
+        </section>
+        <section class="contact-container">
+            <p class="footer-heading">Other Apps</p>
+            <p class="footer-icon-text">Scientific Calculator</p>
+            <p class="footer-icon-text">Advanced Timer</p>
+            <p class="footer-icon-text">Music Store</p>
+        </section>
+        <section class="social-media-icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-pinterest"></i>
+            <i class="fa-brands fa-instagram"></i>
+        </section>
+    </footer>
+
+</body>
+
+</html>
